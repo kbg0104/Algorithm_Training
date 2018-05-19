@@ -13,7 +13,6 @@ void Initialize(void);
 void InsertNode(NODE *);
 
 void Initialize(void) {
-	NODE *ptr;
 	head = (NODE*)malloc(sizeof(NODE));
 	end = (NODE*)malloc(sizeof(NODE));
 
@@ -32,12 +31,12 @@ void Initialize(void) {
 	temp3->data = 'D';
 	temp2->next = temp3;
 	temp3->next = end;
+
 	
 	temp4 = (NODE*)malloc(sizeof(NODE));
 	temp4->data = 'E';
 	temp3->next = temp4;
 	temp4->next = end;
-	ptr = temp4;
 }
 
 void InsertNode(NODE *ptr) {

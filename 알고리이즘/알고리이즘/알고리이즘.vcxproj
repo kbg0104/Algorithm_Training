@@ -149,7 +149,7 @@
     <ClCompile Include="0001. 배열에 데이터 삽입.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="_포인터 헷갈릴때.cpp">
+    <ClCompile Include="_포인터 헷갈릴때.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
