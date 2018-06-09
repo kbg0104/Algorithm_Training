@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 typedef struct _NODE {
-	char data;
+	char data[10];
 	struct _NODE *next;
  } NODE;
 
@@ -17,24 +17,28 @@ void Initialize(void) {
 	end = (NODE*)malloc(sizeof(NODE));
 
 	temp1 = (NODE*)malloc(sizeof(NODE));
-	temp1->data = 'A';
+	//temp1->data = 'A';
+	scanf("%s", temp1->data);
 	head->next = temp1;
 	temp1->next = end;
 	end->next = end;
 	
 	temp2 = (NODE*)malloc(sizeof(NODE));
-	temp2->data = 'B';
+	//temp2->data = 'B';
+	scanf("%s", temp2->data);
 	temp1->next = temp2;
 	temp2->next = end;
 
 	temp3 = (NODE*)malloc(sizeof(NODE));
-	temp3->data = 'D';
+	//temp3->data = 'D';
+	scanf("%s", temp3->data);
 	temp2->next = temp3;
 	temp3->next = end;
 
 	
 	temp4 = (NODE*)malloc(sizeof(NODE));
-	temp4->data = 'E';
+	//temp4->data = 'E';
+	scanf("%s", temp4->data);
 	temp3->next = temp4;
 	temp4->next = end;
 }
@@ -59,20 +63,21 @@ void main() {
 	ptr = head->next;
 
 	for (i = 0; i < 4; i++) {
-		printf("%2c", ptr->data);
+		printf("%s ", ptr->data);
 		ptr = ptr->next;
 	}
 
 	printf("\n");
 	temp = (NODE*)malloc(sizeof(NODE));
-	temp->data = 'C';
+	//temp->data = 'C';
+	scanf("%s", temp->data);
 
 	InsertNode(temp);
 
 	ptr = head->next;
 
 	for (i = 0; i < 5; i++) {
-		printf("%2c", ptr->data);
+		printf("%s ", ptr->data);
 		ptr = ptr->next;
 	}
 }
