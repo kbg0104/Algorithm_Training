@@ -24,5 +24,8 @@
     <ClCompile Include="_포인터 헷갈릴때.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0002-2.단일 링크드 리스트의  삽입 알고리즘.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
