@@ -15,25 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="0001. 배열에 데이터 삽입.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="0002. 단일 링크드 리스트의 삽입 알고리즘.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_포인터 헷갈릴때.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="0002-2.단일 링크드 리스트의  삽입 알고리즘.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2016년.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="가운데 글자 가져오기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="같은 숫자는 싫어.cpp">
+    <ClCompile Include="소스.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
