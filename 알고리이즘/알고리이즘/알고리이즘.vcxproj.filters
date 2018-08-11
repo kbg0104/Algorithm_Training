@@ -15,13 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="문자열 내림차순으로 배치하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_포인터 헷갈릴때.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="0001. 배열에 데이터 삽입.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="0002. 단일 링크드 리스트의 삽입 알고리즘.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_포인터 헷갈릴때.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="0002-2.단일 링크드 리스트의  삽입 알고리즘.c">
@@ -42,13 +45,13 @@
     <ClCompile Include="두 정수 사이의 합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="문자열 내 마음대로 정렬하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="문자열 내 p와 y의 개수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="문자열 내림차순으로 배치하기.cpp">
+    <ClCompile Include="문자열 내 마음대로 정렬하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 내림차순으로 배치하기_s.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

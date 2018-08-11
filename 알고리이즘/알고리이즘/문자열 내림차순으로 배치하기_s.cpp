@@ -1,7 +1,6 @@
 #include <string>
 #include <vector>
 #include <iostream>
-#include <algorithm>
 
 using namespace std;
 
@@ -10,9 +9,9 @@ string solution(string s) {
 	vector<char> sum;
 	vector<char> sum_b;
 	int i;
+	//int zero = 0;
 	for (i = 0; i < s.size(); i++)
 		sum.push_back(s.at(i));
-	sort(sum.begin(), sum.end());
 	for (i = (sum.size() - 1); i >= 0; i--) {
 		if ((sum.at(i) >= 65 && sum.at(i) <= 90) && i >= 0) {
 			sum_b.push_back(sum.at(i));
