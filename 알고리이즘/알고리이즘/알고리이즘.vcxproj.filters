@@ -66,5 +66,17 @@
     <ClCompile Include="소수 찾기 ver 2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="NYPC-[연습문제] 78 89 80 67.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NYPC-[연습문제] HELLO NEXON.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NYPC-아이템 구매%28미%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NYPC-승리팀 찾기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
