@@ -1,47 +1,41 @@
 #include <string>
 #include <vector>
 #include <iostream>
+
 using namespace std;
 
 int solution(int n) {
+	int answer = 0;
 	int* arr;
 	int i, j;
-	arr = (int*)malloc(sizeof(int)*n);
-	int answer = 0;
-	for (i = 0; i < n; i++)
-		arr[i] = i + 1;
-	if (n >= 2)
-		answer = 1;
-	for (i = 3; i < n; i += 2) {
+	arr = (int*)calloc(sizeof(int),n + 1);
+	for (i = 1; i <= n; i++) {
+		arr[i] = i;
+	}
+	/**********************************/
+	for (i = 2; i <= n; i++) {
 		if (arr[i] == 0)
 			continue;
 		else
-			for(j = 3; j < i - 1; j += 2)
-
+			for (j = i; j <= n; j += arr[i])
+				if (j == arr[i])
+					continue;
+				else
+				arr[j] = 0;
 	}
-	
-	
-	
-	
-	
-	return answer;
+	/**********************************/
+	for (i = 2; i <= n; i++)
+		if (arr[i] != 0)
+			answer++;
 
+	cout << answer;
+	return answer;
 }
 void main()
 {
-	int a = 10;
-	a = solution(a);
-	cout << a;
+	int n = 15;
+	solution(n);
+	
+
+
 }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
