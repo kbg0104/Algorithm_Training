@@ -87,5 +87,8 @@
     <ClCompile Include="시저 암호%28%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="정수 내림차순으로 배치하기%28미%29 .cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

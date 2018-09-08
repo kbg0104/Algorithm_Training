@@ -1,7 +1,7 @@
+#include <string>
 #include <vector>
 #include <iostream>
 #include <algorithm>
-#include <string>
 
 using namespace std;
 
@@ -17,9 +17,9 @@ long long solution(long long n) {
 	wa = "";
 	for (i = arr.size() - 1; i >= 0; i--)
 		wa = wa + arr.at(i);
-
+		
 	answer = stoi(wa);
-
+	
 	return answer;
 }
 void main() {
