@@ -18,11 +18,8 @@ int solution(int n) {
 		if (arr[i] == 0)
 			continue;
 		else
-			for (j = i; j <= n; j += arr[i])
-				if (j == arr[i])
-					continue;
-				else
-					arr[j] = 0;
+			for (j = i*2; j <= n; j += arr[i])
+				arr[j] = 0;
 	}
 	/**********************************/
 	for (i = 2; i <= n; i++)
