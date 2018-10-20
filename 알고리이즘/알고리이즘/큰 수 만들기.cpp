@@ -3,43 +3,38 @@
 #include <algorithm>
 #include <iostream>
 using namespace std;
-string solution(string number, int k) {
+string solution(string number, int k)
+{
 	string answer = "";
-	vector<int> ss, sum, ss_2;
-	int i, j;
+	vector<int> ss;
+	int i, j, c = 0, s = 0, h;
 	for (i = 0; i < number.size(); i++) {
 		ss.push_back(number.at(i) - 48);
 	}
-	ss_2 = ss;
-	sort(ss.begin(), ss.end());
-	for (i = 0; i < k; i++)
-		ss.at(i) = 0;
-	for (i = 0; i < ss.size(); i++)
-		if (ss.at(i) != 0)
-			sum.push_back(ss.at(i));
-	
-	for (i = 0; i < ss_2.size(); i++)
-		for (j = 0; j < sum.size(); j++) {
-			if (ss_2.at(i) == sum.at(j))
-				ss_2.at(i) = 0;
-		
+	int g = ss.size() - k;
+	for (j = 0; j < g; j++) {
+		for (i = s; i <= k; i++) {
+			if (c < ss.at(i)) {
+				c = ss.at(i);
+				h = i;
+			}
+			
 		}
+		answer = answer + to_string(c);
+		s = h + 1;
+		k++;
+	}
 	
+
 		
-		
-		
-	for (i = 0; i < ss.size(); i++)
-		cout << sum.at(i);
+
 	return answer;
 }
-
-
-
-
-
-void main() {
-	string number = "1924";
-	int k = 2;
-	solution(number, k);
-
+void main()
+{
+	string number = "4177252841";
+	int k = 4;
+	string answer;
+	answer = solution(number, k);
+	cout << answer;
 }
