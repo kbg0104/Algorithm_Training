@@ -11,6 +11,7 @@ string solution(string number, int k)
 	for (i = 0; i < number.size(); i++) {
 		ss.push_back(number.at(i) - 48);
 	}
+
 	int g = ss.size() - k;
 	for (j = 0; j < g; j++) {
 		for (i = s; i <= k; i++) {
@@ -23,6 +24,7 @@ string solution(string number, int k)
 		answer = answer + to_string(c);
 		s = h + 1;
 		k++;
+		c = 0;
 	}
 	
 
