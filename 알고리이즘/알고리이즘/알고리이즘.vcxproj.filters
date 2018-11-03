@@ -24,9 +24,6 @@
     <ClCompile Include="0002. 단일 링크드 리스트의 삽입 알고리즘.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="0002-2.단일 링크드 리스트의  삽입 알고리즘.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2016년.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -115,6 +112,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="가장 큰 수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0003. 간단한 키-주소 검색 알고리즘.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 큰 수%28답%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
