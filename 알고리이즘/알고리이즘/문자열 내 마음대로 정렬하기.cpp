@@ -1,30 +1,24 @@
-#include <vector>
-#include <iostream>
-#include <algorithm>
 #include <string>
-
+#include <vector>
+#include <algorithm>
 using namespace std;
-
-long long solution(long long n) {
-	long long answer = 0;
-	int i, j, hl = 0;
-	vector<char> arr;
-	string wa = to_string(n);
-	/***************************************/
-	for (i = 0; i < wa.size(); i++)
-		arr.push_back(wa.at(i));
-	sort(arr.begin(), arr.end());
-	wa = "";
-	for (i = arr.size() - 1; i >= 0; i--)
-		wa = wa + arr.at(i);
-
-	answer = stoi(wa);
-
+int num;
+bool str_sort(string a, string b) {
+	return a.at(num) < b.at(num) ? true : false;
+}
+vector<string> solution(vector<string> strings, int n) {
+	vector<string> answer;
+	num = n;
+	sort(strings.begin(), strings.end());
+	sort(strings.begin(), strings.end(), str_sort);
+	answer = strings;
+	
 	return answer;
 }
+
 void main() {
-	long long n;
-	cin >> n;
-	solution(n);
+	vector<string> strings = { "asdfe", "awcrd", "bqbrx","tyace", "qbgcd","eqfhc", "qehfs","oqejv", "wfije", };
+	int n = 4;
+	solution(strings, n);
 
 }
