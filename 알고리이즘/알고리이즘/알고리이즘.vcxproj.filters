@@ -75,9 +75,6 @@
     <ClCompile Include="수박수박수박수박수박수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="문자열을 정수로 바꾸기 .cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="정수 내림차순으로 배치하기%28미%29 .cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -121,6 +118,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ㅎ메모장.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="자릿수 더하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="자연수 뒤집어 배열로 만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열을 정수로 바꾸기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

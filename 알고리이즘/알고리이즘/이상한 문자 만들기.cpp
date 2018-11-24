@@ -6,23 +6,25 @@
 using namespace std;
 
 string solution(string s) {
-	string answer = "";
-	string word = "";
-	vector<string> list;
-	stringstream sum(s);
-	int i;
-	while (sum >> word)
-	{
-		list.push_back(word);
+	string answer = s;
+	int i, j = 0;
+	for (i = 0; i < answer.size(); i++) {
+		if (answer.at(i) == ' ')
+			j = 1;
+		else if (j % 2) {
+			if (answer.at(i) >= 65 && answer.at(i) <= 90)
+				answer.at(i) += 32;
+		}
+		else
+			if (answer.at(i) >= 97 && answer.at(i) <= 122)
+				answer.at(i) -= 32;
+		j++;
 	}
-	
-	for (i = 0; i <= list.size(); i++) {
-		cout << list.at(i);
-	}
+
+	cout << answer;
 	return answer;
 }
 void main() {
-	int n;
 	string s = "";
 	cin >> s;
 	solution(s);
