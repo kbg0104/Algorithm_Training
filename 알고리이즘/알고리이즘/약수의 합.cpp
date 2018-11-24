@@ -18,14 +18,15 @@ int solution(int n) {
 			answer += arr[i];
 	}
 	/**********************************/
-	answer++;
+	if (n != 0)
+		answer++;
 
 	cout << answer;
 	return answer;
 }
 void main()
 {
-	int n = 15;
+	int n = 0;
 	solution(n);
 
 

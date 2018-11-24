@@ -15,9 +15,7 @@ int solution(int n) {
 	}
 	/**********************************/
 	for (i = 3; i <= sqrt(n); i += 2) {
-		if (arr[i] == 0)
-			continue;
-		else
+		if (arr[i] != 0)
 			for (j = i * 2; j <= n; j += i)
 				arr[j] = 0;
 	}
