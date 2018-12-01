@@ -18,8 +18,8 @@ long long solution(long long n) {
 	b = "";
 	for (i = 0; i < a.size(); i++)
 		b = b + to_string(a.at(i));
-	i = stoi(b);
-	answer = i;
+	answer = stoll(b);
+	cout << answer;
 	return answer;
 }
 void main() {

@@ -31,6 +31,3 @@ int sometning_good(vector<int> list) {
 
 
 }
-
-
-}

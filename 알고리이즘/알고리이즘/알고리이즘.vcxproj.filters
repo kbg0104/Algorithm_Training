@@ -75,9 +75,6 @@
     <ClCompile Include="수박수박수박수박수박수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="정수 내림차순으로 배치하기%28미%29 .cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="약수의 합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -108,9 +105,6 @@
     <ClCompile Include="가장 큰 수%28답%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="시저 암호%28미%29.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="시저 암호.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -127,6 +121,18 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="문자열을 정수로 바꾸기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="정수 내림차순으로 배치하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="정수 제곱근 판별.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="제일 작은 수 제거하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[2017 카카오]뉴스 클러스터링.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
