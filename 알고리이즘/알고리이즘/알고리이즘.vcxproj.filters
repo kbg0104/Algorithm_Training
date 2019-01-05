@@ -111,9 +111,6 @@
     <ClCompile Include="문자열 내 마음대로 정렬하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ㅎ메모장.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="자릿수 더하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -133,6 +130,18 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="[2017 카카오]뉴스 클러스터링.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="최대공약수와 최소공배수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="콜라츠 추측.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="평균 구하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="하샤드 수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
